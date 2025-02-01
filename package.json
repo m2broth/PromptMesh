@@ -1,0 +1,26 @@
+{
+  "name": "@m2broth/promptmesh",
+  "version": "1.0.3",
+  "description": "Framework-agnostic completion services",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest"
+  },
+  "dependencies": {
+    "knex": "^3.1.0",
+    "openai": "^4.80.1",
+    "pg": "^8.13.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.0.0",
+    "@types/node": "^18.0.0",
+    "@types/nunjucks": "^3.2.6",
+    "dotenv": "^16.4.7",
+    "jest": "^29.0.0",
+    "nunjucks": "^3.2.4",
+    "ts-jest": "^29.2.5",
+    "typescript": "^5.7.2"
+  }
+}
